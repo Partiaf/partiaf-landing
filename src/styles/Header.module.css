@@ -1,0 +1,31 @@
+.containerHeader{
+    margin-top: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.textLeft{
+    display: flex;
+    gap: 1rem;
+    color: rgba(0,0,0,0.4);
+}
+
+.sectionRight {
+    color: rgba(0,0,0,0.4);
+}
+
+
+
