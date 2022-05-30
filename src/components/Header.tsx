@@ -6,6 +6,8 @@ const Header = () => {
   return (
     <div className={styles.containerHeader}>
       <div className={styles.sectionLeft}>
+        <Link href="/">
+
         <Image
           className={styles.logo}
           src="/img/seganix2.svg"
@@ -13,15 +15,22 @@ const Header = () => {
           height={60}
           width={90}
         />
+        </Link>
+
         <div className={styles.textLeft}>
-          <Link href="/">Link</Link>
+        <Link href="/pricing">Features</Link>
+        <Link href="/pricing">For small business</Link>
+        <Link href="/pricing">For freelancers</Link>
+        <Link href="/pricing">Pricing</Link>
+          <Link href="/pricing">Resources</Link>
           <Link href="/">Link</Link>
           <Link href="/">Link</Link>
         </div>
       </div>
       <div className={styles.sectionRight}>
-      <i className='bx bx-world bx-rotate-90' ></i>
-      <Link href="/"> | Contact</Link>
+        <p>English</p>
+        <Link href="/">Log in</Link>
+        <button> Start for free </button>
       </div>
     </div>
   );

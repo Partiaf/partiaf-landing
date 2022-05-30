@@ -1,9 +1,10 @@
 .containerTopBar{
-    background-color: blue;
-    height: 2rem;
+    background-color: #2164D9;
+    height: 3rem;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 1.4rem;
 }

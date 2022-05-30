@@ -1,13 +1,14 @@
 .containerHeader{
-    margin-top: 1rem;
-    border: 1px solid rgba(0,0,0,0.2);
-    height: 4rem;
+    /* border: 1px solid rgba(0,0,0,0.2); */
+    height: 6rem;
     display: flex;
     align-items: center;
     padding: 1rem;
-    border-radius: .4rem;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 0 5rem;
+    background-color: #FFF;
 }
 
 .sectionLeft{
@@ -20,11 +21,25 @@
 .textLeft{
     display: flex;
     gap: 1rem;
-    color: rgba(0,0,0,0.4);
+    font-size: 1.4rem;
 }
 
 .sectionRight {
     color: rgba(0,0,0,0.4);
+    display: flex;
+    gap: 2rem; 
+    align-items: center;
+}
+
+.sectionRight a{
+    color: var(--main-color);
+}
+.sectionRight button{
+    background-color: var(--main-color);
+    color: #FFF;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
 }
 
 
