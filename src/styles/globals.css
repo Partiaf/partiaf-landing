@@ -29,3 +29,53 @@ a {
 button{
   cursor: pointer;
 }
+
+
+.max_feature{
+  background-color: rgba(17, 24, 39, 1);
+  color: #FFF;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.max_feature > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.max_feature > div h2{
+  font-size: 5rem;
+}
+
+.max_feature > div p{
+  font-size: 1.6rem;
+  max-width: 20rem;
+}
+
+.performance{
+  text-align: center;
+  padding: 4rem;
+  width: 80rem;
+  margin:  0 auto;
+}
+
+.performance h6{
+  color: #2164D9;
+  font-size: 1.6rem;
+}
+
+.performance h2{
+  font-size: 4rem;
+  margin: 2rem 0;
+  color: rgba(17, 24, 39, 1);
+
+}
+
+.performance p{
+  color: rgba(0, 0, 0, .7);
+  max-width: 50rem;
+  margin: 0 auto;
+}

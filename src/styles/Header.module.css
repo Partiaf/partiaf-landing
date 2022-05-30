@@ -1,6 +1,6 @@
 .containerHeader{
     /* border: 1px solid rgba(0,0,0,0.2); */
-    height: 6rem;
+    height: 6.5rem;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -20,7 +20,7 @@
 
 .textLeft{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     font-size: 1.4rem;
 }
 
