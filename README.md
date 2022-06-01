@@ -12,7 +12,7 @@
 
 ## Entities Diagram
 
-<img src="/seganix__entities.png"/>
+<img src="/seganix_entities.png"/>
 
 
 
