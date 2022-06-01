@@ -1,34 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### EXPENSE USE CASE
 
-## Getting Started
+- Create expense
+- Delete expense (dont delete from database)
+- Update expense
+- List expenses
+- Save as a drafts
+- Count of expenses
+- Remove many expenses
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Entities Diagram
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+https://viewer.diagrams.net/?tags={}&highlight=FFFFFF&edit=_blank&layers=1&nav=1&title=seganix.drawio#R7Zrdb5swEMD%2FGh478ZGQ5LEhaTep26ql3bSnygUHrBmbGack%2B%2Bt3xnY%2BSlizaQ19IEKKOR%2F%2BuPv5sC9xgihfXwtUZB95gqnju8naCWaO73sD33fU5SYbLRmNQi1IBUmM0k6wIL%2BwEbpGuiIJLg8UJedUkuJQGHPGcCwPZEgIXh2qLTk97LVAKW4IFjGiTek3ksjMSD3X3VW8xyTNTNfjoal4RPGPVPAVM%2F0xzrCuyZFtxqiWGUp4tScK5k4QCc6lLuXrCFNlVmsx%2FdxVS%2B12yAIzecoDo%2FEk9LzhZOmGeDLG4wtvpJt4QnRl7DBfF5iVZgal3Fj7lBXJKYKpBdNM5hSEHhSXnMmFUVL3iJKUQTmGEWEBgicsJAErX5oKyQuQxhmhyQ3a8JUadynBhPZumnFBfkGzyPYB1UIaYPzwQGOhngSxC1KBS9C5tcbwtqIbVEqjE3NKUVGSx%2B2AcyRSwqZcSp4bJTvTK0JpxCkXtQGCZf1RrSpf48RqW5%2Fq9nMSmzJFj5hOt3DYlmo81KQE%2F7ElrTblXndGSVn3CuWEqjX1FYsEMWSNru3h%2BU0GDBbK8ni9JzJMXGOeYyk2oGJrLeNm6Vqyq711EBpZtrcEfPscMmsv3Ta9gxAKhsMTmdyOf8fkhV734Gzo%2BbLmUhCWNhiF%2BcpDPrWZn5u1aWnLLcVL2UptWaAYur2pdWaDneSLsYkSVRmReAFyNaYKYiXIOLS3pDUlGUkSzGqKJJJIg6hwKThhsrbjcAoXWDZy3w2dIcwrgntvdw%2BXUhcy4gzmh0jteAyUV1iRPm0i0b7wX4bEQOGHJ0IRvgYTQYMJx5%2Bqtw2SWCMxU6UeiPMBMfS7BGJ4NEiUq0LZoQ8SHTExGnfJRNgSJD5InJeaCccPqdQ%2BYQdYhD9XahemPXNRateoJwqBa2tZBSil5hs2BRNdolpypZvVCmYjpTqvvTXrSTwjiZ476BLFQQuKjNv3VR%2Bdzs9EcOrG9j8w8XB%2F%2F6Gao6fN5ySuZplHQwZjbu5tNRdyUxguLqPo8%2F2nu4e777fzno4%2F0dFw%2FEnAtNMx7HKH602OkPHM%2B5Q8P36fdIp8wfU5OIzina%2FvFAqzC6%2FBQ9DkITji5%2Frce8tLIglX7Qut%2B8z%2F3QSA8Yl7Vm%2F8SgHAb3h5m2%2BptykNn%2Fdpl7ecdnkhBP057eKP%2Fi3t4oWDV6Kzeco2mZcYF%2F2h6n%2B9mNoDw5tIvhwdXtt%2BNsFlLEihQ33PR1d8nDMXc3R4x9MxKIcQbAIHW%2BWP8GrqwTgrGOdMyBwdXltOphDEZlh6Mrog46wJkqPja%2F72aM7CYEz60APSNSCdZ0vG%2FZH4LI4%2BNfHx94diuN39u6Gu2%2Fv3SDD%2FDQ%3D%3D
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
