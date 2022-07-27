@@ -10,7 +10,7 @@ const Pricing: NextPage = () => {
     return (
         <>
             <Layout>
-                <SEO title="Pricing" />
+                <SEO title="Precios y planes que se adaptan a tus necesidades" description="Descubre los planes asequibles de Holded, diseñados para adaptarse a las necesidades de cualquier negocio. ¡Empieza tu prueba gratis!" />
                 <Header />
 
                 <div className={styles.banner}>

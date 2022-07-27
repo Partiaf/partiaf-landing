@@ -7,29 +7,29 @@ const Home: NextPage = () => {
   return (
     <>
       <Layout>
-        <SEO title="Inicio" />
+        <SEO title="Helebba el Software de Gestión Inteligente para Pymes" description="Software de gestión empresarial con facturación, contabilidad, inventario y CRM de primer nivel con proyectos en una única plataforma súper intuitiva que se adapta a todo tipo de negocio." />
         <Header />
 
         <div className="performance">
-          <h6>YOUR BUSINESS, ONE CLICK AWAY</h6>
-          <h2>See how your business is performing at all times</h2>
-          <p>How about changing hours of work with a simple click? Seganix simplifies your day-to-day, automating tasks and streamlining your accounting and invoicing.</p>
+          <h6>TU NEGOCIO, A UN CLICK DE DISTANCIA</h6>
+          <h2>Vea cómo se está desempeñando su negocio en todo momento</h2>
+          <p>¿Qué tal cambiar largas horas de trabajo por un simple clic? Helebba simplifica tu día a día, automatizando tareas y agilizando tu contabilidad y facturación.</p>
         </div>
         <div className="max_feature">
-          <h2>Max than 500 companies already use Seganix</h2>
+          <h2>Más de 500 empresas ya utilizan Helebba</h2>
 
           <div>
             <div>
               <h2>40 H.</h2>
-              <p>Automate 40 hours of work per month</p>
+              <p>Automatice 40 horas de trabajo al mes</p>
             </div>
             <div>
               <h2>+ 160</h2>
-              <p>Process invoices 160 times  faster</p>
+              <p>Procesa facturas 160 veces más rápido</p>
             </div>
             <div>
               <h2>80%</h2>
-              <p>Get paid 80% faster than with manual processes</p>
+              <p>Reciba pagos un 80 % más rápido que manualmente</p>
             </div>
           </div>
         </div>

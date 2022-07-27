@@ -18,19 +18,17 @@ const Header = () => {
         </Link>
 
         <div className={styles.textLeft}>
-        <Link href="/pricing">Features</Link>
-        <Link href="/pricing">For small business</Link>
-        <Link href="/pricing">For freelancers</Link>
-        <Link href="/pricing">Pricing</Link>
-          <Link href="/pricing">Resources</Link>
-          <Link href="/">Link</Link>
-          <Link href="/">Link</Link>
+        <Link href="/pricing">Funcionalidades</Link>
+        <Link href="/pricing">Para empresas</Link>
+        <Link href="/pricing">Para emprendedores</Link>
+        <Link href="/pricing">Precios</Link>
+          <Link href="/pricing">Recursos</Link>
         </div>
       </div>
       <div className={styles.sectionRight}>
-        <p>English</p>
-        <Link href="/">Log in</Link>
-        <button> Start for free </button>
+        {/* <p>English</p> */}
+        <Link href="/">Inicia sesion</Link>
+        <button> Empieza gratis </button>
       </div>
     </div>
   );
