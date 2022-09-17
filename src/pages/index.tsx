@@ -1,6 +1,9 @@
 import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import SEO from "@/components/seo/seo";
+import Banner from "@/sections/home/banner";
+import Testimonials from "@/sections/home/testimonials";
+import Time from "@/sections/home/time";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
@@ -9,6 +12,12 @@ const Home: NextPage = () => {
       <Layout>
         <SEO title="Helebba el Software de Gestión Inteligente para Pymes" description="Software de gestión empresarial con facturación, contabilidad, inventario y CRM de primer nivel con proyectos en una única plataforma súper intuitiva que se adapta a todo tipo de negocio." />
         <Header />
+
+        <Banner />
+
+        <div className="white_bg">
+
+        <Time />
 
         <div className="performance">
           <h6>TU NEGOCIO, A UN CLICK DE DISTANCIA</h6>
@@ -33,6 +42,10 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+        </div>
+        <Testimonials />
+
+
       </Layout>
     </>
   );

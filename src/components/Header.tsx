@@ -10,10 +10,10 @@ const Header = () => {
 
         <Image
           className={styles.logo}
-          src="/img/seganix2.svg"
+          src="/img/logo.svg"
           alt="logo"
-          height={60}
-          width={90}
+          height={50}
+          width={60}
         />
         </Link>
 

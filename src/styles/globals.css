@@ -1,5 +1,5 @@
 :root{
-  --main-color: #2164D9;
+  --main-color: rgba(59,130,246,1);
 
 }
 
@@ -24,6 +24,10 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+ul{
+  list-style: none;
 }
 
 button{
@@ -60,6 +64,7 @@ button{
   padding: 4rem;
   width: 80rem;
   margin:  0 auto;
+    padding-bottom: 2rem;
 }
 
 .performance h6{
@@ -78,4 +83,9 @@ button{
   color: rgba(0, 0, 0, .7);
   max-width: 50rem;
   margin: 0 auto;
+  padding-bottom: 6rem;
+}
+
+.white_bg{
+  background-color: #FFF;
 }

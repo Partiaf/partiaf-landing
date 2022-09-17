@@ -1,0 +1,81 @@
+
+.performance{
+    text-align: center;
+    padding: 4rem;
+    width: 80rem;
+    margin:  0 auto;
+  }
+  
+  .performance h6{
+    color: #2164D9;
+    font-size: 1.6rem;
+  }
+  
+  .performance h2{
+    font-size: 4rem;
+    margin: 0rem 0;
+    color: rgba(17, 24, 39, 1);
+
+  }
+  
+  .performance p{
+    color: rgba(0, 0, 0, .7);
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  .cards_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1230px;
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    gap: 1rem;
+    padding-bottom: 6rem;
+  }
+
+  .cards_container .card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    min-height: 35rem;
+    height: 35rem;
+    min-width: 30rem;
+    width: 30rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.cards_container .card h5{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.cards_container .card p{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .6);
+    font-weight: 400;
+
+    margin-bottom: 3rem;
+}
+
+.cards_container .card .stars i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: var(--main-color);
+    margin-bottom: 4rem;
+}
+
+.cards_container .card h6{
+    letter-spacing: .1rem;
+    color: rgba(0, 0, 0, .8);
+    font-size: 1.3rem;
+}
+
+.cards_container .card span{
+
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .6);
+}

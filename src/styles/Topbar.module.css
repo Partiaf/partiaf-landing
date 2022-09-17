@@ -1,5 +1,5 @@
 .containerTopBar{
-    background-color: #2164D9;
+    background-color: var(--main-color);
     height: 3rem;
     text-align: center;
     display: flex;

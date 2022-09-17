@@ -14,8 +14,8 @@ const Pricing: NextPage = () => {
                 <Header />
 
                 <div className={styles.banner}>
-                    <h2>Start your free trial</h2>
-                    <p>Try Seganix free for 14 days. You don't need credit card.</p>
+                    <h2>Empieza tu prueba gratis</h2>
+                    <p>Prueba Helebba gratis durante 14 dias. No necesitas terjeta de credito.</p>
                 </div>
 
                 <div>
