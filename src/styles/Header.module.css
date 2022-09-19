@@ -15,12 +15,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .textLeft{
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     font-size: 1.6rem;
 }
 

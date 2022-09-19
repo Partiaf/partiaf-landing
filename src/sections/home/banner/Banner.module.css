@@ -2,6 +2,14 @@
     width: 90%;
     max-width: 1200px;
     margin: 8rem auto;
+    display: flex;
+    align-items: center;
+    gap: 0 15rem;
+    /* justify-content: space-; */
+}
+
+.container img{
+    border-radius: 1rem;
 }
 
 .container h2{
