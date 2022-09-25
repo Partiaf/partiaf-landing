@@ -89,3 +89,36 @@ button{
 .white_bg{
   background-color: #FFF;
 }
+
+@media screen and (max-width: 768px){
+  
+  .performance{
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+    margin:  0 auto;
+      padding-bottom: 2rem;
+  }
+
+  .performance h2{
+    font-size: 3rem;  
+  }
+  
+  .max_feature > div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .max_feature > div h2{
+    font-size: 3rem;
+  }
+
+  
+  .max_feature > div p{
+    font-size: 1.4rem;
+  }
+  
+}
