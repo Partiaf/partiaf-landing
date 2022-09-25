@@ -15,7 +15,7 @@
 .container h2{
     max-width: 450px;
     font-size: 5.5rem;
-    line-height: 5rem;
+    line-height: 6rem;
     font-weight: 800;
     margin-bottom: 2rem;
     color: rgba(0, 0, 0, .85);
@@ -30,7 +30,8 @@
     border: none;
     background-color: var(--main-color);
     border-radius: .5rem;
-    color: #fff;
+    color: #333;
+    font-weight: 600;
     font-size: 1.5rem;
     margin-top: 3rem;
 }

@@ -15,7 +15,7 @@ const Pricing: NextPage = () => {
 
                 <div className={styles.banner}>
                     <h2>Empieza tu prueba gratis</h2>
-                    <p>Prueba Helebba gratis durante 14 dias. No necesitas terjeta de credito.</p>
+                    <p>Prueba Partiaf gratis durante 14 dias. No necesitas terjeta de credito.</p>
                 </div>
 
                 <div>

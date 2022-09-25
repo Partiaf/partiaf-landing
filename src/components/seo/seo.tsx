@@ -28,7 +28,7 @@ const SEO: NextPage<Seo> = ({ description, author, title, meta = [] }: Seo) => {
 
   return (
     <Head>
-      <title>{title} - Seganix</title>
+      <title>{title} - Partiaf</title>
 
       {metadata.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />

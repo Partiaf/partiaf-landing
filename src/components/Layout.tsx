@@ -7,9 +7,8 @@ import Footer from "./Footer";
 const Layout: NextPage<{children: React.ReactNode}> = ({children}) => {
     return (
         <>
-      <Topbar />
-
-            <main className={styles.containerLayout}>{children}</main>
+            <Topbar />
+                <main className={styles.containerLayout}>{children}</main>
             <Footer />
         </>
     )

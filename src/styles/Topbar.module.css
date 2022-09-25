@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #333;
     font-size: 1.4rem;
+    font-weight: 600;
 }

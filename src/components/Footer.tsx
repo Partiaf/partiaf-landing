@@ -52,7 +52,7 @@ const Footer = () => {
                     </select></li>
             </ul>
         </div>
-        <div className={styles.copy}><p>&copy; 2022 Helebba. Todos los derechos reservados.</p> <span><Link href="/"><i className='bx bxl-linkedin'></i></Link> <Link href="/"><i className='bx bxl-twitter' ></i></Link> <Link href="/"><a><i className='bx bxl-instagram' ></i></a></Link></span> </div>
+        <div className={styles.copy}><p>&copy; 2022 Partiaf. Todos los derechos reservados.</p> <span><Link href="/"><i className='bx bxl-linkedin'></i></Link> <Link href="/"><i className='bx bxl-twitter' ></i></Link> <Link href="/"><a><i className='bx bxl-instagram' ></i></a></Link></span> </div>
     </div>
   );
 };

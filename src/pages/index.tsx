@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Layout>
-        <SEO title="Helebba el Software de Gestión Inteligente para Pymes" description="Software de gestión empresarial con facturación, contabilidad, inventario y CRM de primer nivel con proyectos en una única plataforma súper intuitiva que se adapta a todo tipo de negocio." />
+        <SEO title="Partiaf el Software de Gestión Inteligente para Pymes" description="Software de gestión empresarial con facturación, contabilidad, inventario y CRM de primer nivel con proyectos en una única plataforma súper intuitiva que se adapta a todo tipo de negocio." />
         <Header />
 
         <Banner />
@@ -22,10 +22,10 @@ const Home: NextPage = () => {
         <div className="performance">
           <h6>TU NEGOCIO, A UN CLICK DE DISTANCIA</h6>
           <h2>Vea cómo se está desempeñando su negocio en todo momento</h2>
-          <p>¿Qué tal cambiar largas horas de trabajo por un simple clic? Helebba simplifica tu día a día, automatizando tareas y agilizando tu contabilidad y facturación.</p>
+          <p>¿Qué tal cambiar largas horas de trabajo por un simple clic? Partiaf simplifica tu día a día, automatizando tareas y agilizando tu contabilidad y facturación.</p>
         </div>
         <div className="max_feature">
-          <h2>Más de 500 empresas ya utilizan Helebba</h2>
+          <h2>Más de 500 empresas ya utilizan Partiaf</h2>
 
           <div>
             <div>

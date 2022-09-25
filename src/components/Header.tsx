@@ -10,24 +10,23 @@ const Header = () => {
 
         <Image
           className={styles.logo}
-          src="/img/logo.svg"
+          src="/logo.svg"
           alt="logo"
-          height={50}
-          width={60}
+          height={80}
+          width={150}
         />
         </Link>
 
         <div className={styles.textLeft}>
         <Link href="/pricing">Funcionalidades</Link>
         <Link href="/pricing">Para empresas</Link>
-        <Link href="/pricing">Para emprendedores</Link>
         <Link href="/pricing">Precios</Link>
           <Link href="/pricing">Recursos</Link>
         </div>
       </div>
       <div className={styles.sectionRight}>
         {/* <p>English</p> */}
-        <Link href="/">Inicia sesion</Link>
+        <Link href="/"><a className="none" >Inicia sesion</a></Link>
         <button> Empieza gratis </button>
       </div>
     </div>

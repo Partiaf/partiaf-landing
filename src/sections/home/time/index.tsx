@@ -4,7 +4,7 @@ import styles from './Time.module.css'
 const Time = () => {
   return (
     <div className={styles.container}>
-      <h3>Ti tiempo es importante</h3>
+      <h3>Tu tiempo es importante</h3>
       <p>Ahorra horas de trabajo automatizando tareas cotidianas</p>
 
       <div className={styles.container_options}>
@@ -20,7 +20,7 @@ const Time = () => {
             <i className='bx bx-message-dots' ></i>
             </span>
             <h4>Conciliacion bancaria</h4>
-            <p>Conecta Helebba a tu banco de forma segura para conciliar tus facturas con tus movimientos bancarios.</p>
+            <p>Conecta Partiaf a tu banco de forma segura para conciliar tus facturas con tus movimientos bancarios.</p>
         </div>
         <div>
             <div>
@@ -29,7 +29,7 @@ const Time = () => {
                 </span>
             </div>
             <h4>Prestacion de modelos</h4>
-            <p>Helebba puede rellenar algunos modelos de IVA e IRPF de forma automatica y enviarlos telematicamente.</p>
+            <p>Partiaf puede rellenar algunos modelos de IVA e IRPF de forma automatica y enviarlos telematicamente.</p>
         </div>
         <div>
             <span>

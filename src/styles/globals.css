@@ -1,5 +1,5 @@
 :root{
-  --main-color: rgba(59,130,246,1);
+  --main-color: #fbd34c;
 
 }
 
@@ -68,7 +68,7 @@ button{
 }
 
 .performance h6{
-  color: #2164D9;
+  color: #fbd34c;
   font-size: 1.6rem;
 }
 
@@ -92,6 +92,9 @@ button{
 
 @media screen and (max-width: 768px){
   
+  .none{
+    display: none;
+  }
   .performance{
     text-align: center;
     padding: 4rem;
