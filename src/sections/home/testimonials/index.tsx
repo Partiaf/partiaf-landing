@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <>
       <div className={styles.performance}>
-        <h6>RESENAS DE NUESTROS CLIENTES</h6>
+        <h6>RESEÑAS DE NUESTROS CLIENTES</h6>
         <h2>Lo que dicen de nosotros</h2>
       </div>
       <div className={styles.cards_container}>

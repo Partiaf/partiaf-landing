@@ -18,12 +18,14 @@
     line-height: 6rem;
     font-weight: 800;
     margin-bottom: 2rem;
-    color: rgba(0, 0, 0, .85);
+    color: var(--black);
+    /* color: rgba(255, 255, 255, 0.85); */
 }
 
 .container p {
     font-size: 1.8rem;
     max-width: 50rem;
+    color: var(--black);
 }
 .container button{
     padding: 1.5rem 4rem;

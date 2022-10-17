@@ -1,6 +1,15 @@
 :root{
+  --mode: url('https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/luna.png');
   --main-color: #fbd34c;
+  --white: #fff;
+  --black: #333;
+  --gray:rgba(0, 0, 0, .6);
+  --blue: rgba(17, 24, 39, 1);
+  --blue-feacture: rgba(17, 24, 39, 1);
+  --body: #F2F2F2
+     
 
+ 
 }
 
 html{
@@ -11,8 +20,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1.6rem;
-
-  background-color: #F2F2F2;
+  background-color: var(--body);
 }
 
 a {
@@ -34,12 +42,13 @@ button{
   cursor: pointer;
 }
 
-
+/* rgb(1, 10, 32) */
 .max_feature{
-  background-color: rgba(17, 24, 39, 1);
-  color: #FFF;
+  background-color:var(--blue-feacture);
+  color: var(--white);
   text-align: center;
   padding: 4rem 0;
+    color: #fff;
 }
 
 .max_feature > div{
@@ -48,6 +57,7 @@ button{
   justify-content: center;
   gap: 4rem;
   margin-top: 2rem;
+
 }
 
 .max_feature > div h2{
@@ -64,7 +74,7 @@ button{
   padding: 4rem;
   width: 80rem;
   margin:  0 auto;
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .performance h6{
@@ -75,19 +85,19 @@ button{
 .performance h2{
   font-size: 4rem;
   margin: 2rem 0;
-  color: rgba(17, 24, 39, 1);
+  color: var(--blue);
 
 }
 
 .performance p{
-  color: rgba(0, 0, 0, .7);
+  color: var(--gray);
   max-width: 50rem;
   margin: 0 auto;
   padding-bottom: 6rem;
 }
 
 .white_bg{
-  background-color: #FFF;
+  background-color: var(--white);
 }
 
 @media screen and (max-width: 768px){
@@ -125,3 +135,28 @@ button{
   }
   
 }
+
+
+.mode {
+  background-image: var(--mode);
+  position: absolute;
+  top: 3rem;
+  left: 115rem;
+  width: 6.3rem;
+  height: 6.5rem;
+}
+.mode:hover {
+cursor: pointer;
+}
+
+.darkMode {
+  --mode: url('https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/sol.png');
+  
+  --body: rgba(17, 24, 39, 1);
+  --white: rgb(21, 21, 21);
+  --black: #fff;
+  --gray: #fff;
+  --blue: #fff;
+  --blue-feacture: rgb(1, 10, 32)
+}
+

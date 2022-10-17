@@ -9,10 +9,11 @@
 .container h3{
     font-weight: 700;
     font-size: 3rem;
+    color: var(--black)
 }
 
 .container > p{
-    color: rgba(0, 0, 0, .6);
+    color: var(--gray);
     font-size: 1.8rem;
 }
 .container_options{
@@ -45,8 +46,9 @@
 .container_options div h4{
     font-weight: 600;
     margin-bottom: 1rem;
+    color: var(--black);
 }
 
 .container_options div p{
-    color: rgba(0, 0, 0, .6);
+    color: var(--gray);
 }

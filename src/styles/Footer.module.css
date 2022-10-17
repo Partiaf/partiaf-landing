@@ -62,23 +62,24 @@
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
+    color: var(--black);
 }
 
 .copy i{
     font-size: 2.5rem;
-    color: rgb(158, 157, 157);
 }
 
 .footer_lists{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    color: var(--black);
 }
 
 .footer_lists h4{
     font-weight: 600;
     margin-bottom: 1.5rem;
-    color: rgba(0,0,0,0.5);
+
 }
 
 .footer_lists li{
@@ -94,6 +95,7 @@
     border-radius: .5rem;
     border: 1px solid rgba(0,0,0,.1);
     text-align: left;
+    color: var(--black);
 }
 
 @media screen and (max-width: 768px){

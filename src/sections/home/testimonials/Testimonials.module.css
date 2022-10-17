@@ -14,7 +14,7 @@
   .performance h2{
     font-size: 4rem;
     margin: 0rem 0;
-    color: rgba(17, 24, 39, 1);
+    color: var(--blue);
 
   }
   
@@ -44,7 +44,14 @@
     min-width: 30rem;
     width: 30rem;
     padding: 2rem;
-    background-color: #fff;
+    background-color: var(--white);
+}
+
+.card h5,
+.card h6, 
+.card p,
+.card span{
+    color: var(--gray)
 }
 
 .cards_container .card h5{
@@ -55,9 +62,8 @@
 
 .cards_container .card p{
     font-size: 1.4rem;
-    color: rgba(0, 0, 0, .6);
+    color: var(--);
     font-weight: 400;
-
     margin-bottom: 3rem;
 }
 
@@ -70,12 +76,10 @@
 
 .cards_container .card h6{
     letter-spacing: .1rem;
-    color: rgba(0, 0, 0, .8);
     font-size: 1.3rem;
 }
 
 .cards_container .card span{
-
     font-size: 1.4rem;
-    color: rgba(0, 0, 0, .6);
+
 }

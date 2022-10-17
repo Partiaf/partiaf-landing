@@ -8,8 +8,9 @@
     justify-content: space-between;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     padding: 0 2rem;
-    background-color: #FFF;
+    background-color: var(--white);
 }
+
 
 .sectionLeft{
     display: flex;
@@ -22,6 +23,7 @@
     display: flex;
     gap: 4rem;
     font-size: 1.6rem;
+    color: var(--black)
 }
 
 .sectionRight {
@@ -32,7 +34,7 @@
 }
 
 .sectionRight a{
-    color: #333;
+        color: var(--black)
 }
 .sectionRight button{
     background-color: var(--main-color);
@@ -46,6 +48,9 @@
 .logo{
     filter: invert(.3);
     width: 2rem;
+}
+.logo:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width:780px) {

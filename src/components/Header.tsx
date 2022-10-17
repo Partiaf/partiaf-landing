@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className={styles.containerHeader}>
+    <div className={ styles.containerHeader}>
       <div className={styles.sectionLeft}>
         <Link href="/">
 
@@ -23,6 +23,7 @@ const Header = () => {
         <Link href="/pricing">Precios</Link>
           <Link href="/pricing">Recursos</Link>
         </div>
+      
       </div>
       <div className={styles.sectionRight}>
         {/* <p>English</p> */}
