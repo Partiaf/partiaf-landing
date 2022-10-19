@@ -9,21 +9,12 @@ import { useEffect } from "react";
 
 const Home: NextPage = () => {
 
-useEffect(() => {
-     document.querySelector('.mode')?.addEventListener("click", function(){
-        document.body.classList.toggle("darkMode")
-        console.log('axsxaA')
-  }) 
-}, [])
-
-
   return (
     <>
       <Layout>
         <SEO title="Partiaf el Software de Gestión Inteligente para Pymes" description="Software de gestión empresarial con facturación, contabilidad, inventario y CRM de primer nivel con proyectos en una única plataforma súper intuitiva que se adapta a todo tipo de negocio." />
         <Header  />
-      <div className="mode"></div>
-
+         
         <Banner />
 
         <div className="white_bg">

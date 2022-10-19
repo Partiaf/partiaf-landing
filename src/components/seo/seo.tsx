@@ -1,6 +1,7 @@
 import { Seo } from "@/types/Seo";
 import { NextPage } from "next";
 import Head from "next/head";
+import { useEffect } from "react";
 
 const SEO: NextPage<Seo> = ({ description, author, title, meta = [] }: Seo) => {
   const metadata = [
@@ -25,6 +26,10 @@ const SEO: NextPage<Seo> = ({ description, author, title, meta = [] }: Seo) => {
       content: author,
     },
   ].concat(meta);
+
+
+
+
 
   return (
     <Head>
