@@ -1,9 +1,12 @@
 import styles from '@styles/Topbar.module.css'
 
+import { FormattedMessage } from 'react-intl'
+
 const Topbar = () => {
     return (
     <div className={styles.containerTopBar}>
-        Comienza y obten un 50% de descuento por 3 meses
+        <FormattedMessage id="getStarted"/>
+        
     </div>
     )
 }

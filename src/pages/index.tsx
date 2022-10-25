@@ -7,6 +7,9 @@ import Time from "@/sections/home/time";
 import type { NextPage } from "next";
 import { useEffect } from "react";
 
+import { FormattedMessage } from 'react-intl'
+
+
 const Home: NextPage = () => {
 
   return (
@@ -22,25 +25,25 @@ const Home: NextPage = () => {
         <Time />
 
         <div className="performance">
-          <h6>TU NEGOCIO, A UN CLICK DE DISTANCIA</h6>
-          <h2>Vea cómo se está desempeñando su negocio en todo momento</h2>
-          <p>¿Qué tal cambiar largas horas de trabajo por un simple clic? Partiaf simplifica tu día a día, automatizando tareas y agilizando tu contabilidad y facturación.</p>
+          <h6><FormattedMessage id="yourBusiness"/></h6>
+          <h2><FormattedMessage id="businessTimes"/></h2>
+          <p><FormattedMessage id="day-to-day"/></p>
         </div>
         <div className="max_feature">
-          <h2>Más de 500 empresas ya utilizan Partiaf</h2>
+          <h2><FormattedMessage id="more500"/></h2>
 
           <div>
             <div>
               <h2>40 H.</h2>
-              <p>Automatice 40 horas de trabajo al mes</p>
+              <p><FormattedMessage id="automate40h"/></p>
             </div>
             <div>
               <h2>+ 160</h2>
-              <p>Procesa facturas 160 veces más rápido</p>
+              <p><FormattedMessage id="160times"/></p>
             </div>
             <div>
               <h2>80%</h2>
-              <p>Reciba pagos un 80 % más rápido que manualmente</p>
+              <p><FormattedMessage id="payments80%"/></p>
             </div>
           </div>
         </div>

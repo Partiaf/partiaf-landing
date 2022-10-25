@@ -1,17 +1,20 @@
 import Image from "next/image";
 import styles from "./Banner.module.css";
 
+
+import { FormattedMessage } from 'react-intl'
+
 const Banner = () => {
   return (
     <div className={styles.container}>
       <div>
-        <h2>El software inteligente que te facilita la gestion de tu negocios</h2>
+        <h2><FormattedMessage id="smartSoftware"/></h2>
         <p>
-          Partiaf es la herramienta en la nube que tiene todo lo que necesitas
-          para gestionar tu negocio de una manera optima y amigable.
+          <FormattedMessage id="toolCloud"/>
+         
         </p>
         <div>
-          <button>Empieza gratis</button>
+          <button><FormattedMessage id="freeStart"/></button>
         </div>
       </div>
 

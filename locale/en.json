@@ -1,0 +1,95 @@
+{
+    "TOPBAR":"TOPBAR",
+    "getStarted": "Get started and get 50% off for 3 months",
+
+    "HEADER": "HEADER",
+    "functionalities": "Functionalities",
+    "companies": "For companies",
+    "pricesHeader": "Prices",
+    "resourcesHeader": "Resources",
+   
+    "login": "Login",
+    "start": "Start for free",
+
+    "INDEX:BANNER":"INDEX:BANNER",
+    "smartSoftware": "The smart software that makes it easy to manage your business",
+    "toolCloud": " Partiaf is the tool in the cloud that has everything you need to manage your business to manage your business in an optimal and friendly way.",
+    "freeStart": "Start for free",
+
+    "INDEX:TIME": "INDEX:TIME",
+    "timeImportant": "Your time is important",
+    "saveHours": "Save hours of work by automating everyday tasks",
+    "onganize": "Organize and classify all invoices and expenses you receive from an external source in one place.",
+    "bank": "Bank reconciliation",
+    "connect": "Securely connect Partiaf to your bank to reconcile your invoices with your bank transactions.",
+    "previsionModel": "Model provision",
+    "telematically": "Partiaf can fill in some VAT and IRPF forms automatically and send them telematically.",
+    "templates": "Document and email templates", 
+    "editableTemplates": "Choose from over 20 editable templates to customize the invoices, documents and emails your company sends.",
+    "remittances": "Remittances",
+    "automateRemittances": "Automate the generation of remittances through an XML file with your invoices, download them and upload them to the bank.",
+    "invoices": "Recurring invoices",
+    "schedule": "Schedule your recurring invoices whenever you want so you don't have to send the same invoice over and over again.",
+
+
+    "INDEX:TESTIMONIALS": "INDEX:TESTIMONIALS",
+    "reviews": "CUSTOMER REVIEWS",
+    "aboutUs": "What they say about us",
+    "veryHappy1": "Very happy",
+    "veryHappy1p": "Very happy with the constant help, there is always an answer to the question! question! Good management program even though I haven't even got a 20%...",
+    "veryHappy2": "Very happy",
+    "veryHappy2p": "Very happy with the constant help, there is always an answer to the question! question! Good management program even though I haven't even got a 20%...",
+    "veryHappy3": "Very happy",
+    "veryHappy3p": "Very happy with the constant help, there is always an answer to the question! question! Good management program even though I haven't even got a 20%...",
+    "veryHappy4": "Very happy",
+    "veryHappy4p": "Very happy with the constant help, there is always an answer to the question! question! Good management program even though I haven't even got a 20%...",
+
+
+    "INDEX:PAGES":"INDEX:PAGES",
+    "yourBusiness": "YOUR BUSINESS, JUST A CLICK AWAY",
+    "businessTimes": "See how your business is performing at all times",
+    "day-to-day": "How about trading long hours of work for a simple click? Partiaf simplifies your day-to-day life, automating tasks and streamlining your accounting and invoicing.",
+    "more500": "More than 500 companies already use Partiaf",
+    "automate40h": "Automate 40 hours of work per month",
+    "160times": "Process invoices 160 times faster",
+    "payments80": "Receive payments 80% faster than manually",
+
+
+
+    "FOOTER": "FOOTER",
+    "title": "FAST ACCESS",
+    "account": "Create an account",
+    "logIn": "Log in",
+    "prices": "Prices",
+    "academy": "Academy",
+
+    "product": "PRODUCT",
+    "pymes": "ERP for pymes",
+    "program": "Invoicing program",
+    "accounting": "Accounting software",
+    "programCRM": "CRM Program",
+    "inventory": "Inventory management",
+    "ProgramHR": "HR Program",
+    "projectManagement": "Project Management",
+    "integrations": "Integrations",
+    "features": "See all features",
+
+    "opportunities": "OPPORTUNITIES",
+    "consultants": "Consultants",
+    "solutionsDev": "Solutions for developers",
+    "joinTeam": "Join the team",
+    "meetUs": "Meet us at",
+    "successStories": "Success Stories",
+
+    "resources": "RESOURCES",
+    "blog": "Blog",
+    "youtube": "Youtube",
+    "cookie": "Cookie Policy",
+    "privacyPolicy": "Privacy Policy",
+    "teamConditions": "Terms and Conditions",
+    "sitemap": "Sitemap",
+
+    "reserved": "All rights reserved."
+
+
+}

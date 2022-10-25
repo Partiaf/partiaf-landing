@@ -1,8 +1,20 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { IntlProvider } from 'react-intl';
+import { useRouter } from "next/router"
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+
+const languages = {
+  en: require('../../locale/en.json'),
+  es: require('../../locale/es.json')
+};
+
+function MyApp({ Component, pageProps }) {
+  const router = useRouter()
+  const { locale, defaultLocale } = router;
+  const messages = languages[locale];
+  return <IntlProvider messages={messages} locale={locale} defaultLocale={defaultLocale}>
+      <Component {...pageProps} />
+      </IntlProvider>
 }
 
 export default MyApp

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+
+import { FormattedMessage } from 'react-intl'
+
 const Header = () => {
 
   const [darkTheme, setDarkTheme] = useState(undefined);
@@ -50,10 +53,18 @@ const Header = () => {
         </Link>
 
         <div className={styles.textLeft}>
-        <Link href="/pricing">Funcionalidades</Link>
-        <Link href="/pricing">Para empresas</Link>
-        <Link href="/pricing">Precios</Link>
-          <Link href="/pricing">Recursos</Link>
+          <span>
+        <Link href="/pricing"><FormattedMessage id="functionalities"/></Link>
+          </span>
+          <span>
+        <Link href="/pricing"><FormattedMessage id="companies"/></Link>
+          </span>
+          <span>
+        <Link href="/pricing"><FormattedMessage id="pricesHeader"/></Link>
+          </span>
+          <span>
+          <Link href="/pricing"><FormattedMessage id="resourcesHeader"/></Link>
+          </span>
         </div>
       </div>
       <div className={styles.sectionRight}>
@@ -78,8 +89,8 @@ const Header = () => {
             )}
           </div>
           
-        <Link href="/"><a className="none" >Inicia sesion</a></Link>
-        <button> Empieza gratis </button>
+        <Link href="/"><a className="none"><FormattedMessage id="login"/></a></Link>
+        <button> <FormattedMessage id="start"/></button>
       </div>
     </div>
   );

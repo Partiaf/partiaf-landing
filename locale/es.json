@@ -1,0 +1,97 @@
+{ 
+    "TOPBAR":"TOPBAR",
+    "getStarted": "Comienza y obten un 50% de descuento por 3 meses",
+
+    "HEADER": "HEADER",
+    "functionalities": "Funcionalidades",
+    "companies": "Para empresas",
+    "pricesHeader": "Prices",
+    "resourcesHeader": "Recursos",
+
+    "login": "Iniciar sesion",
+    "start": "Empieza gratis",
+
+    "INDEX":"INDEX",
+    "smartSoftware": "El software inteligente que te facilita la gestion de tu negocios",
+    "toolCloud": " Partiaf es la herramienta en la nube que tiene todo lo que necesitas para gestionar tu negocio de una manera optima y amigable.",
+    "freeStart": "Empieza gratis",
+
+    "INDEX:TIME": "INDEX:TIME",
+    "timeImportant": "Tu tiempo es importante",
+    "saveHours": "Ahorra horas de trabajo automatizando tareas cotidianas",
+    "onganize": "Organiza y clasifica todas las facturas y gastos que recibas de una fuente externa en un solo lugar.",
+    "bank": "Conciliacion bancaria",
+    "connect": "Conecta Partiaf a tu banco de forma segura para conciliar tus facturas con tus movimientos bancarios.",
+    "previsionModel": "Prestacion de modelos",
+    "telematically": "Partiaf puede rellenar algunos modelos de IVA e IRPF de forma automatica y enviarlos telematicamente.",
+    "templates": "Plantillas de documentos y emails", 
+    "editableTemplates": "Elije entre mas de 20 plantillas editables para personalizar las facturas, documentos y emails que envia tu empresa.",
+    "remittances": "Remesas",
+    "automateRemittances": "Automatiza la generacion de remesas a traves de un archovo XML con tus facturas, descargalas y subelas al banco.",
+    "invoices": "Facturas recurrentes",
+    "schedule": "Programe sus facturas periódicas cuando quiera para no tener que enviar la misma factura una y otra vez.",
+
+    "INDEX:TESTIMONIALS": "INDEX:TESTIMONIALS",
+    "reviews": "RESEÑAS DE NUESTROS CLIENTES",
+    "aboutUs": "Lo que dicen de nosotros",
+    "veryHappy1": "Muy contenta",
+    "veryHappy1p": " Muy contanta con la constante ayuda, Siempre hay respuesta a la pregunta! Buen programa de gestion aunque aun no le he sacado ni un 20%...",
+    "veryHappy2": "Muy contenta",
+    "veryHappy2p": " Muy contanta con la constante ayuda, Siempre hay respuesta a la pregunta! Buen programa de gestion aunque aun no le he sacado ni un 20%...",
+    "veryHappy3": "Muy contenta",
+    "veryHappy3p": " Muy contanta con la constante ayuda, Siempre hay respuesta a la pregunta! Buen programa de gestion aunque aun no le he sacado ni un 20%...",
+    "veryHappy4": "Muy contenta",
+    "veryHappy4p": " Muy contanta con la constante ayuda, Siempre hay respuesta a la pregunta! Buen programa de gestion aunque aun no le he sacado ni un 20%...",
+    
+
+
+    "INDEX:PAGES":"INDEX:PAGES",
+    "yourBusiness": "TU NEGOCIO, A UN CLICK DE DISTANCIA",
+    "businessTimes": "Vea cómo se está desempeñando su negocio en todo momento",
+    "day-to-day": "¿Qué tal cambiar largas horas de trabajo por un simple clic? Partiaf simplifica tu día a día, automatizando tareas y agilizando tu contabilidad y facturación.",
+    "more500": "Más de 500 empresas ya utilizan Partiaf",
+    "automate40h": "Automatice 40 horas de trabajo al mes",
+    "160times": "Procesa facturas 160 veces más rápido",
+    "payments80": "Reciba pagos un 80 % más rápido que manualmente",
+
+
+
+
+    "FOOTER": "FOOTER",   
+    "title": "ACCESO RAPIDO", 
+    "account": "Crear cuenta",
+    "logIn": "Iniciar sesion",
+    "prices": "Precios",
+    "academy": "Academia",
+
+    "product": "PRODUCTO",
+    "pymes": "ERP para pymes",
+    "program": "Programa de facturacion",
+    "accounting": "Programa de contabilidad",
+    "programCRM": "Programa CRM",
+    "inventory": "Gestion de inventario",
+    "ProgramHR": "Programa de RRHH",
+    "projectManagement": "Gestion de proyectos",
+    "integrations": "Integraciones",
+    "features": "Ver todas las funcionalidades",
+
+    "opportunities": "OPORTUNIDADES",
+    "consultants": "Asesorias",
+    "solutionsDev": "Soluciones para developers",
+    "joinTeam": "Unete al equipo",
+    "meetUs": "Conocenos",
+    "successStories": "Historias de exito",
+
+    "resources": "RECURSOS",
+     "blog": "Blog",
+     "youtube": "Youtube",
+     "cookie": "Politica de cookies",
+     "privacyPolicy": "Politica de privacidad",
+     "teamConditions": "Terminos y condiciones",
+     "sitemap": "Sitemap",
+
+     "reserved": "Todos los derechos reservados."
+
+    
+    
+}
